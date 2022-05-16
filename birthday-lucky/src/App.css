@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: blueviolet;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header {
+    padding: 1rem;
+}
+.bob, .luck {
+    margin: 1rem 0;
+}
+
+input {
+    display: block;
+    width: 18rem;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+}
+label {
+    display: block;
+    font-size: 1.5rem;
+}
+button {
+    display: block;
+    padding: 0.5rem 1rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+textarea {
+    width: 18rem;
+    border-radius: 0.5rem;
+    resize: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+}
+footer {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
